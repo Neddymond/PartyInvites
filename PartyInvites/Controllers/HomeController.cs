@@ -10,7 +10,7 @@ namespace PartyInvites.Controllers
         public ViewResult Index()
         {
             int hour = DateTime.Now.Hour;
-            ViewBag.Greeting = hour < 12 ? "Good Morning" : "Good afternoon";
+            //ViewBag.Greeting = hour < 12 ? "Good Morning" : "Good afternoon";
             return View("MyView");
         }
 
